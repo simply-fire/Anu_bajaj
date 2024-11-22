@@ -43,9 +43,9 @@ app.post('/bfhl', (req, res) => {
         return res.status(400).json({ is_success: false, message: 'Invalid data format' });
     }
 
-    const userId = "AVINASH_RAI_17091999"; 
-    const email = "rai008754@gmail.com"; // Replace with actual email
-    const rollNumber = "0101CS211036"; // Replace with actual roll number 
+    const userId = "Anunay_Sharma"; 
+    const email = "anunaysharma12@gmail.com"; // Replace with actual email
+    const rollNumber = "0101CS211026"; // Replace with actual roll number 
 
     const { numbers, alphabets, highestLowercaseAlphabet, isPrimeFound } = processInput(data);
 
